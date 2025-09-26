@@ -24,6 +24,10 @@ body {
     background-color: #E7F6FF;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-full {
     background-color: #fff;
     border-radius: 20px;
@@ -140,26 +144,25 @@ header {
 
 .first-left-info h1 {
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .first-left-info span {
     color: #71a32a;
 }
 
-.first-left-info button {
-    border: none;
-    width: 180px;
-    height: 50px;
+.first-left-info a {
+    padding: 15px 55px;
     border-radius: 110px;
     background-color: #A5D364;
     font-weight: 700;
     font-size: 16px;
     color: #fff;
     transition: 0.4s all ease;
+    cursor: pointer;
 }
 
-.first-left-info button:hover {
+.first-left-info a:hover {
     background-color: #000;
     box-shadow: 0 5px 20px #A5D364;
     transform: translateY(-4px);
@@ -277,6 +280,10 @@ header {
     border-radius: 40px;
     transition: 0.4s all ease;
     background-color: #dbdbdb4b;
+}
+
+.card img {
+    border-radius: 10px;
 }
 
 .card:hover {
