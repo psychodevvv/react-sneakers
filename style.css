@@ -276,6 +276,7 @@ header {
     gap: 16px;
     border-radius: 40px;
     transition: 0.4s all ease;
+    background-color: #dbdbdb4b;
 }
 
 .card:hover {
@@ -286,6 +287,13 @@ header {
     position: absolute;
     width: 42px;
     cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.20);
+    transition: 0.3s all ease;
+}
+
+.favorite-status:hover {
+    box-shadow: 0 0 12px #A5D364;
 }
 
 .card h1 {
@@ -301,6 +309,13 @@ header {
 .cart-status {
     width: 42px;
     cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.20);
+    transition: 0.3s all ease;
+}
+
+.cart-status:hover {
+    box-shadow: 0 0 12px #A5D364;
 }
 
 .card-info span {
