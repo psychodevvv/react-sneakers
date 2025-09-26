@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REACT SNEAKERS</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="bg-full">
@@ -32,7 +33,7 @@
             </div>
         </header>
 
-        <img class="line" src="./assets/line.svg" alt="line">
+        <hr>
 
         <section class="first">
             <div class="first-left">
@@ -45,13 +46,28 @@
                 </div>
             </div>
             <div class="first-right">
-                <img class="first-bg" src="./assets/first-bg.png" alt="first-bg">
-                <img class="strelka" src="./assets/strelka.svg" alt="right-button">
+                <div class="slider-wrapper">
+                    <img class="slide-image" src="./assets/first-bg.png" alt="">
+                    <img class="slide-image" src="./assets/first-bg2.png" alt="">
+                </div>
+                <div class="slider-dots">
+                    <div class="dot active-dot"></div>
+                    <div class="dot"></div>
+                </div>
             </div>
         </section>
 
         <section class="second">
-
+            <div class="second-header">
+                <h1>Все кроссовки</h1>
+                <div class="search">
+                    <img src="./assets/search.svg" alt="">
+                    <input type="text" placeholder="Поиск...">
+                </div>
+            </div>
+            <div class="cards">
+                
+            </div>
         </section>
     </div>
 </body>
